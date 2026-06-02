@@ -2,6 +2,17 @@
 
 A framework for scene text detection under occlusion and complex backgrounds. 
 
+Live Demo
+
+Try the online demo:
+https://huggingface.co/spaces/AS-STL/STD
+
+The demo allows users to upload scene text images and visualize:
+
+Occlusion-aware text localization
+Prediction heatmaps
+Detected text boundaries
+
 ## Project Structure
 
 * `model.py` – Network architecture (ResNet18, ViT, CRFT, FPN)
@@ -31,7 +42,7 @@ data/
 Dataset download:
 
 ```bash
-gdown https://drive.google.com/drive/folders/1sKrDOMmMXDlrVHYZ-PQ76HJLKLiJfXqY?usp=sharing --folder
+!gdown https://drive.google.com/drive/folders/1sKrDOMmMXDlrVHYZ-PQ76HJLKLiJfXqY?usp=sharing --folder
 ```
 
 ## Pretrained Model
